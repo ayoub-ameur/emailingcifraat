@@ -19,59 +19,78 @@
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
     img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-    body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; background-color: #f4f0eb; }
+    body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; background-color: #f4f0e6; }
 
     /* Fonts */
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
     /* Mobile */
     @media only screen and (max-width: 600px) {
       .email-container { width: 100% !important; }
       .fluid { max-width: 100% !important; height: auto !important; }
-      .stack-column { display: block !important; width: 100% !important; }
-      .mobile-padding { padding-left: 24px !important; padding-right: 24px !important; }
-      h1 { font-size: 28px !important; line-height: 34px !important; }
-      .hero-section { padding: 40px 24px !important; }
+      .stack-column { display: block !important; width: 100% !important; max-width: 100% !important; }
+      .mobile-padding { padding-left: 20px !important; padding-right: 20px !important; }
+      h1 { font-size: 26px !important; line-height: 33px !important; }
+      .hero-section { padding: 36px 20px !important; }
       .cta-button { width: 100% !important; }
       .cta-button a { display: block !important; }
-      .benefit-icon { width: 48px !important; height: 48px !important; }
+      .hero-img { width: 100% !important; height: auto !important; }
+      .stat-cell { display: block !important; width: 100% !important; padding: 12px 0 !important; }
+      .module-table { width: 100% !important; }
+      .module-cell { display: block !important; width: 100% !important; padding: 6px 0 !important; }
     }
   </style>
 </head>
-<body style="margin:0; padding:0; background-color:#f4f0eb;">
+<body style="margin:0; padding:0; background-color:#f4f0e6;">
   <!-- Preview text -->
   <div style="display:none; max-height:0; overflow:hidden; mso-hide:all;">
-    Après le Ramadan, offrez-vous la plus belle des transformations. Devenez thérapeute certifiée.&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;
+    Apres le Ramadan, lancez votre nouvelle vie. Devenez therapeute certifiee avec CIFRAAT, elu meilleur fournisseur de formation 2025.&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;
   </div>
 
-  <center style="width:100%; background-color:#f4f0eb;">
+  <center style="width:100%; background-color:#f4f0e6;">
     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" class="email-container" style="margin:auto;">
 
       <!-- HEADER -->
       <tr>
-        <td style="background-color:#1a1a2e; padding:24px 40px; text-align:center; border-radius:12px 12px 0 0;">
-          <img src="https://cifraat.com/wp-content/uploads/2026/03/logo.png" alt="CIFRAAT" width="180" style="display:inline-block; max-width:180px;">
+        <td style="background-color:#387054; padding:20px 40px; text-align:center; border-radius:12px 12px 0 0;">
+          <img src="https://cifraat.com/wp-content/uploads/2026/03/logo.png" alt="CIFRAAT" width="160" style="display:inline-block; max-width:160px;">
         </td>
       </tr>
 
-      <!-- HERO -->
+      <!-- AWARD BANNER -->
       <tr>
-        <td class="hero-section" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); padding:56px 40px 48px; text-align:center;">
-          <p style="margin:0 0 16px; font-family:'Inter',Arial,sans-serif; font-size:14px; letter-spacing:3px; text-transform:uppercase; color:#c9a96e;">
-            &#9733; Formation certifiée IPHM &#9733;
+        <td style="background-color:#2b5a3f; padding:10px 40px; text-align:center;">
+          <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:13px; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff;">
+            &#127942; &Eacute;lu meilleur fournisseur de formation 2025 au Maroc
           </p>
-          <h1 style="margin:0 0 20px; font-family:'Playfair Display',Georgia,serif; font-size:34px; line-height:42px; font-weight:700; color:#ffffff;">
-            Et si après le Ramadan,<br>vous commenciez<br><span style="color:#c9a96e;">votre plus belle mission ?</span>
+        </td>
+      </tr>
+
+      <!-- HERO IMAGE -->
+      <tr>
+        <td style="padding:0; background-color:#387054;">
+          <img src="https://skhxwbqpvamwxvhbzcgk.supabase.co/storage/v1/object/public/CIFRAAT/hero1.png" alt="Formation CIFRAAT" width="600" class="hero-img" style="display:block; width:100%; max-width:600px; height:auto;">
+        </td>
+      </tr>
+
+      <!-- HERO TEXT -->
+      <tr>
+        <td class="hero-section" style="background-color:#387054; padding:40px 40px 44px; text-align:center;">
+          <p style="margin:0 0 14px; font-family:'Inter',Arial,sans-serif; font-size:13px; letter-spacing:2.5px; text-transform:uppercase; color:rgba(255,255,255,0.7);">
+            Formation certifi&eacute;e IPHM &amp; IAOTH
+          </p>
+          <h1 style="margin:0 0 18px; font-family:'Playfair Display',Georgia,serif; font-size:32px; line-height:40px; font-weight:700; color:#ffffff;">
+            Et si apr&egrave;s le Ramadan,<br>vous commenciez<br><span style="color:#f4f0e6; background-color:rgba(255,255,255,0.15); padding:2px 10px; border-radius:4px;">votre plus belle mission ?</span>
           </h1>
-          <p style="margin:0 0 32px; font-family:'Inter',Arial,sans-serif; font-size:16px; line-height:26px; color:#d1d1e0;">
-            Devenez <strong style="color:#ffffff;">Thérapeute en Relation d'Aide</strong><br>
-            et transformez votre sensibilité en un véritable métier.
+          <p style="margin:0 0 30px; font-family:'Inter',Arial,sans-serif; font-size:16px; line-height:26px; color:rgba(255,255,255,0.85);">
+            Devenez <strong style="color:#ffffff;">Th&eacute;rapeute en Relation d'Aide</strong><br>
+            et transformez votre sensibilit&eacute; en un v&eacute;ritable m&eacute;tier.
           </p>
           <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
             <tr>
-              <td style="border-radius:50px; background:#c9a96e;">
-                <a href="https://cifraat.zohobookings.com/#/4777557000000053146" target="_blank" style="display:inline-block; padding:16px 40px; font-family:'Inter',Arial,sans-serif; font-size:16px; font-weight:600; color:#1a1a2e; text-decoration:none; letter-spacing:0.5px;">
-                  Réserver mon appel découverte &rarr;
+              <td style="border-radius:50px; background:#ffffff;">
+                <a href="https://cifraat.zohobookings.com/#/4777557000000053146" target="_blank" style="display:inline-block; padding:16px 40px; font-family:'Inter',Arial,sans-serif; font-size:16px; font-weight:700; color:#387054; text-decoration:none; letter-spacing:0.5px;">
+                  R&eacute;server mon appel d&eacute;couverte &rarr;
                 </a>
               </td>
             </tr>
@@ -82,69 +101,245 @@
       <!-- EMOTIONAL HOOK -->
       <tr>
         <td style="background-color:#ffffff; padding:48px 40px; text-align:center;" class="mobile-padding">
-          <p style="margin:0 0 8px; font-family:'Playfair Display',Georgia,serif; font-size:22px; color:#1a1a2e; font-weight:600;">
+          <p style="margin:0 0 8px; font-family:'Playfair Display',Georgia,serif; font-size:22px; color:#2b1b24; font-weight:600;">
             Vous le ressentez depuis longtemps&hellip;
           </p>
-          <div style="width:40px; height:2px; background:#c9a96e; margin:16px auto 24px;"></div>
+          <div style="width:40px; height:3px; background:#387054; margin:16px auto 24px; border-radius:2px;"></div>
           <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:26px; color:#555555; max-width:460px; display:inline-block;">
-            Ce besoin d'aider les autres, cette empathie naturelle, cette envie de faire quelque chose de <strong>profondément utile</strong>.
+            Ce besoin d'aider les autres, cette empathie naturelle, cette envie de faire quelque chose de <strong style="color:#2b1b24;">profond&eacute;ment utile</strong>.
             <br><br>
-            Vous écoutez, vous conseillez, on vient vers vous&hellip; mais vous n'avez jamais osé en faire <strong>un vrai métier</strong>.
+            Vous &eacute;coutez, vous conseillez, on vient vers vous&hellip; mais vous n'avez jamais os&eacute; en faire <strong style="color:#2b1b24;">un vrai m&eacute;tier</strong>.
             <br><br>
-            <span style="color:#1a1a2e; font-weight:600;">Le Ramadan se termine. Un nouveau chapitre commence.</span>
+            <span style="color:#387054; font-weight:700; font-size:16px;">Le Ramadan se termine. Un nouveau chapitre commence.</span>
             <br>C'est le moment de vous lancer.
           </p>
         </td>
       </tr>
 
-      <!-- DIVIDER -->
+      <!-- STATS BAR -->
       <tr>
-        <td style="background-color:#f4f0eb; padding:0; height:4px; font-size:0;">&nbsp;</td>
+        <td style="background-color:#387054; padding:28px 20px;">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td class="stat-cell" width="33%" style="text-align:center; padding:0 8px;">
+                <p style="margin:0; font-family:'Playfair Display',Georgia,serif; font-size:32px; font-weight:700; color:#ffffff;">99%</p>
+                <p style="margin:4px 0 0; font-family:'Inter',Arial,sans-serif; font-size:12px; color:rgba(255,255,255,0.75); text-transform:uppercase; letter-spacing:1px;">Taux de satisfaction</p>
+              </td>
+              <td class="stat-cell" width="33%" style="text-align:center; padding:0 8px; border-left:1px solid rgba(255,255,255,0.2); border-right:1px solid rgba(255,255,255,0.2);">
+                <p style="margin:0; font-family:'Playfair Display',Georgia,serif; font-size:32px; font-weight:700; color:#ffffff;">99%</p>
+                <p style="margin:4px 0 0; font-family:'Inter',Arial,sans-serif; font-size:12px; color:rgba(255,255,255,0.75); text-transform:uppercase; letter-spacing:1px;">Taux de r&eacute;ussite</p>
+              </td>
+              <td class="stat-cell" width="33%" style="text-align:center; padding:0 8px;">
+                <p style="margin:0; font-family:'Playfair Display',Georgia,serif; font-size:32px; font-weight:700; color:#ffffff;">250+</p>
+                <p style="margin:4px 0 0; font-family:'Inter',Arial,sans-serif; font-size:12px; color:rgba(255,255,255,0.75); text-transform:uppercase; letter-spacing:1px;">&Eacute;tudiantes accompagn&eacute;es</p>
+              </td>
+            </tr>
+          </table>
+        </td>
       </tr>
 
-      <!-- WHAT YOU GET -->
+      <!-- APPROACH: 3 PILLARS -->
+      <tr>
+        <td style="background-color:#ffffff; padding:48px 24px 40px;" class="mobile-padding">
+          <h2 style="margin:0 0 8px; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#2b1b24; text-align:center; font-weight:700;">
+            Notre approche
+          </h2>
+          <div style="width:40px; height:3px; background:#387054; margin:12px auto 32px; border-radius:2px;"></div>
+
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <!-- Pillar 1 -->
+              <td class="stack-column" width="33%" valign="top" style="padding:0 8px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="text-align:center; padding:16px 8px 20px; background:#f4f0e6; border-radius:10px;">
+                      <img src="https://skhxwbqpvamwxvhbzcgk.supabase.co/storage/v1/object/public/CIFRAAT/ap1.png" alt="Pedagogie" width="64" style="display:inline-block; width:64px; height:64px; margin-bottom:12px;">
+                      <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:14px; font-weight:700; color:#387054; text-transform:uppercase; letter-spacing:0.5px;">P&eacute;dagogie</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:12px; line-height:18px; color:#666666;">Apprentissage clair, progressif et orient&eacute; terrain.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <!-- Pillar 2 -->
+              <td class="stack-column" width="33%" valign="top" style="padding:0 8px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="text-align:center; padding:16px 8px 20px; background:#f4f0e6; border-radius:10px;">
+                      <img src="https://skhxwbqpvamwxvhbzcgk.supabase.co/storage/v1/object/public/CIFRAAT/ap2.png" alt="Accompagnement" width="64" style="display:inline-block; width:64px; height:64px; margin-bottom:12px;">
+                      <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:14px; font-weight:700; color:#387054; text-transform:uppercase; letter-spacing:0.5px;">Accompagnement</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:12px; line-height:18px; color:#666666;">&Eacute;thique, supervision et posture professionnelle.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <!-- Pillar 3 -->
+              <td class="stack-column" width="33%" valign="top" style="padding:0 8px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="text-align:center; padding:16px 8px 20px; background:#f4f0e6; border-radius:10px;">
+                      <img src="https://skhxwbqpvamwxvhbzcgk.supabase.co/storage/v1/object/public/CIFRAAT/ap3.png" alt="Flexibilite" width="64" style="display:inline-block; width:64px; height:64px; margin-bottom:12px;">
+                      <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:14px; font-weight:700; color:#387054; text-transform:uppercase; letter-spacing:0.5px;">Flexibilit&eacute;</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:12px; line-height:18px; color:#666666;">Cadre hybride pens&eacute; pour vos rythmes r&eacute;els.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- DIVIDER -->
+      <tr>
+        <td style="background-color:#f4f0e6; padding:0; height:4px; font-size:0;">&nbsp;</td>
+      </tr>
+
+      <!-- PROGRAM DETAILS -->
       <tr>
         <td style="background-color:#ffffff; padding:48px 40px;" class="mobile-padding">
-          <h2 style="margin:0 0 8px; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#1a1a2e; text-align:center; font-weight:700;">
+          <h2 style="margin:0 0 8px; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#2b1b24; text-align:center; font-weight:700;">
+            Le programme en un coup d'oeil
+          </h2>
+          <div style="width:40px; height:3px; background:#387054; margin:12px auto 32px; border-radius:2px;"></div>
+
+          <!-- Duration & Format -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:24px; background:#f4f0e6; border-radius:10px;">
+            <tr>
+              <td style="padding:20px 24px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td width="50%" valign="top" style="padding-right:12px;">
+                      <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#387054; font-weight:600;">Dur&eacute;e</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:700; color:#2b1b24;">12 &agrave; 18 mois</p>
+                    </td>
+                    <td width="50%" valign="top" style="padding-left:12px; border-left:2px solid #387054;">
+                      <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#387054; font-weight:600;">Format</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:700; color:#2b1b24;">Hybride</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Format detail -->
+          <p style="margin:0 0 28px; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#666666; text-align:center;">
+            Cours en ligne + 2 s&eacute;ances collectives/mois (dont 1 en pr&eacute;sentiel) + 2 s&eacute;ances individuelles par module
+          </p>
+
+          <!-- 4 Modules -->
+          <h3 style="margin:0 0 16px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:700; color:#387054; text-align:center; text-transform:uppercase; letter-spacing:1px;">4 Modules</h3>
+
+          <table role="presentation" class="module-table" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:24px;">
+            <tr>
+              <td class="module-cell" width="50%" valign="top" style="padding:0 6px 12px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="padding:14px 16px; border-left:3px solid #387054; background:#f9f8f4; border-radius:0 8px 8px 0;">
+                      <p style="margin:0 0 2px; font-family:'Inter',Arial,sans-serif; font-size:11px; color:#387054; font-weight:700;">MODULE 1</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; color:#2b1b24; font-weight:600;">Bases de la Psychanalyse</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="module-cell" width="50%" valign="top" style="padding:0 6px 12px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="padding:14px 16px; border-left:3px solid #387054; background:#f9f8f4; border-radius:0 8px 8px 0;">
+                      <p style="margin:0 0 2px; font-family:'Inter',Arial,sans-serif; font-size:11px; color:#387054; font-weight:700;">MODULE 2</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; color:#2b1b24; font-weight:600;">Psychologie G&eacute;n&eacute;rale</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="module-cell" width="50%" valign="top" style="padding:0 6px 12px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="padding:14px 16px; border-left:3px solid #387054; background:#f9f8f4; border-radius:0 8px 8px 0;">
+                      <p style="margin:0 0 2px; font-family:'Inter',Arial,sans-serif; font-size:11px; color:#387054; font-weight:700;">MODULE 3</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; color:#2b1b24; font-weight:600;">Estime de Soi &amp; Rapports Sociaux</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="module-cell" width="50%" valign="top" style="padding:0 6px 12px;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="padding:14px 16px; border-left:3px solid #387054; background:#f9f8f4; border-radius:0 8px 8px 0;">
+                      <p style="margin:0 0 2px; font-family:'Inter',Arial,sans-serif; font-size:11px; color:#387054; font-weight:700;">MODULE 4</p>
+                      <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; color:#2b1b24; font-weight:600;">Entretien Th&eacute;rapeutique</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Evaluation -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding:16px 20px; background:#387054; border-radius:8px; text-align:center;">
+                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:13px; line-height:20px; color:#ffffff;">
+                  <strong>&Eacute;valuation :</strong> QCM + Rapport par module &bull; Stage pratique (2 cas minimum) &bull; Soutenance finale
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- HERO IMAGE 2 -->
+      <tr>
+        <td style="padding:0;">
+          <img src="https://skhxwbqpvamwxvhbzcgk.supabase.co/storage/v1/object/public/CIFRAAT/hero2.png" alt="Etudiantes CIFRAAT" width="600" class="hero-img" style="display:block; width:100%; max-width:600px; height:auto;">
+        </td>
+      </tr>
+
+      <!-- BENEFITS -->
+      <tr>
+        <td style="background-color:#ffffff; padding:48px 40px;" class="mobile-padding">
+          <h2 style="margin:0 0 8px; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#2b1b24; text-align:center; font-weight:700;">
             Ce que cette formation va vous apporter
           </h2>
-          <div style="width:40px; height:2px; background:#c9a96e; margin:12px auto 32px;"></div>
+          <div style="width:40px; height:3px; background:#387054; margin:12px auto 32px; border-radius:2px;"></div>
 
           <!-- Benefit 1 -->
-          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:24px;">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:20px;">
             <tr>
-              <td width="56" valign="top">
-                <div class="benefit-icon" style="width:44px; height:44px; border-radius:50%; background:#f4f0eb; text-align:center; line-height:44px; font-size:20px;">&#127891;</div>
+              <td width="48" valign="top">
+                <div style="width:40px; height:40px; border-radius:50%; background:#387054; text-align:center; line-height:40px; font-size:18px; color:#ffffff;">&#10003;</div>
               </td>
-              <td valign="top" style="padding-left:12px;">
-                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:600; color:#1a1a2e;">Un diplôme reconnu à l'international</p>
-                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#777777;">Certification accréditée par l'IPHM, le plus grand conseil d'accréditation indépendant au monde.</p>
+              <td valign="top" style="padding-left:14px;">
+                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:700; color:#2b1b24;">Double accr&eacute;ditation internationale</p>
+                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#777777;">Certifi&eacute;e IPHM &amp; IAOTH — les r&eacute;f&eacute;rences mondiales en mati&egrave;re de bonnes pratiques th&eacute;rapeutiques.</p>
               </td>
             </tr>
           </table>
 
           <!-- Benefit 2 -->
-          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:24px;">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:20px;">
             <tr>
-              <td width="56" valign="top">
-                <div class="benefit-icon" style="width:44px; height:44px; border-radius:50%; background:#f4f0eb; text-align:center; line-height:44px; font-size:20px;">&#128167;</div>
+              <td width="48" valign="top">
+                <div style="width:40px; height:40px; border-radius:50%; background:#387054; text-align:center; line-height:40px; font-size:18px; color:#ffffff;">&#10003;</div>
               </td>
-              <td valign="top" style="padding-left:12px;">
-                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:600; color:#1a1a2e;">Une formation 100% flexible</p>
-                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#777777;">En ligne, en présentiel ou en individuel. Étudiez à votre rythme, selon vos engagements personnels et familiaux.</p>
+              <td valign="top" style="padding-left:14px;">
+                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:700; color:#2b1b24;">Pratique supervis&eacute;e d&egrave;s le d&eacute;but</p>
+                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#777777;">Stage d'accompagnement, &eacute;tudes de cas r&eacute;els et soutenance. Vous ne serez jamais seule.</p>
               </td>
             </tr>
           </table>
 
           <!-- Benefit 3 -->
-          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:24px;">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:20px;">
             <tr>
-              <td width="56" valign="top">
-                <div class="benefit-icon" style="width:44px; height:44px; border-radius:50%; background:#f4f0eb; text-align:center; line-height:44px; font-size:20px;">&#10024;</div>
+              <td width="48" valign="top">
+                <div style="width:40px; height:40px; border-radius:50%; background:#387054; text-align:center; line-height:40px; font-size:18px; color:#ffffff;">&#10003;</div>
               </td>
-              <td valign="top" style="padding-left:12px;">
-                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:600; color:#1a1a2e;">Un métier qui a du sens</p>
-                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#777777;">Accompagnez des personnes vers le mieux-être. Un métier d'écoute, d'impact et de liberté.</p>
+              <td valign="top" style="padding-left:14px;">
+                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:700; color:#2b1b24;">Un cadre &eacute;thique et humain</p>
+                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#777777;">Accompagnement bienveillant, posture professionnelle et d&eacute;veloppement personnel int&eacute;gr&eacute;.</p>
               </td>
             </tr>
           </table>
@@ -152,70 +347,109 @@
           <!-- Benefit 4 -->
           <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
             <tr>
-              <td width="56" valign="top">
-                <div class="benefit-icon" style="width:44px; height:44px; border-radius:50%; background:#f4f0eb; text-align:center; line-height:44px; font-size:20px;">&#128176;</div>
+              <td width="48" valign="top">
+                <div style="width:40px; height:40px; border-radius:50%; background:#387054; text-align:center; line-height:40px; font-size:18px; color:#ffffff;">&#10003;</div>
               </td>
-              <td valign="top" style="padding-left:12px;">
-                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:600; color:#1a1a2e;">Un investissement accessible</p>
-                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#777777;">Formation complète à <strong style="color:#1a1a2e;">29 450 MAD</strong> <span style="text-decoration:line-through; color:#aaa;">32 500 MAD</span> — facilités de paiement disponibles.</p>
+              <td valign="top" style="padding-left:14px;">
+                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:15px; font-weight:700; color:#2b1b24;">Un m&eacute;tier d'avenir, &agrave; votre rythme</p>
+                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; line-height:22px; color:#777777;">Exercez depuis chez vous ou en cabinet. Format hybride compatible avec votre vie de famille.</p>
               </td>
             </tr>
           </table>
         </td>
       </tr>
 
-      <!-- DIVIDER -->
+      <!-- ACCREDITATIONS -->
       <tr>
-        <td style="background-color:#f4f0eb; padding:0; height:4px; font-size:0;">&nbsp;</td>
+        <td style="background-color:#f4f0e6; padding:32px 40px; text-align:center;" class="mobile-padding">
+          <p style="margin:0 0 16px; font-family:'Inter',Arial,sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:2px; color:#999999; font-weight:600;">Accr&eacute;dit&eacute; par</p>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tr>
+              <td style="padding:0 16px;">
+                <img src="https://skhxwbqpvamwxvhbzcgk.supabase.co/storage/v1/object/public/CIFRAAT/LOGOS/22.svg" alt="IPHM" width="80" style="display:inline-block; max-width:80px; height:auto;">
+              </td>
+              <td style="padding:0 16px;">
+                <img src="https://skhxwbqpvamwxvhbzcgk.supabase.co/storage/v1/object/public/CIFRAAT/LOGOS/23.svg" alt="IAOTH" width="80" style="display:inline-block; max-width:80px; height:auto;">
+              </td>
+            </tr>
+          </table>
+        </td>
       </tr>
 
-      <!-- TESTIMONIAL / SOCIAL PROOF -->
+      <!-- TESTIMONIAL -->
       <tr>
-        <td style="background-color:#1a1a2e; padding:40px 48px; text-align:center;" class="mobile-padding">
-          <p style="margin:0 0 16px; font-size:32px; line-height:32px;">&#10077;</p>
+        <td style="background-color:#387054; padding:40px 48px; text-align:center;" class="mobile-padding">
+          <p style="margin:0 0 14px; font-size:32px; line-height:32px; color:#ffffff;">&#10077;</p>
           <p style="margin:0 0 16px; font-family:'Playfair Display',Georgia,serif; font-size:18px; line-height:30px; color:#ffffff; font-style:italic;">
-            J'ai commencé cette formation en étant maman au foyer. Aujourd'hui, j'accompagne des femmes chaque semaine depuis chez moi. Ce métier m'a redonné confiance et indépendance.
+            J'ai commenc&eacute; cette formation en &eacute;tant maman au foyer. Aujourd'hui, j'accompagne des femmes chaque semaine depuis chez moi. Ce m&eacute;tier m'a redonn&eacute; confiance et ind&eacute;pendance.
           </p>
-          <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:13px; color:#c9a96e; letter-spacing:1px; text-transform:uppercase;">
-            &mdash; Une diplômée CIFRAAT
+          <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:13px; color:rgba(255,255,255,0.7); letter-spacing:1px; text-transform:uppercase;">
+            &mdash; Une dipl&ocirc;m&eacute;e CIFRAAT
           </p>
         </td>
       </tr>
 
-      <!-- URGENCY + CTA -->
+      <!-- PRICING -->
       <tr>
-        <td style="background-color:#ffffff; padding:48px 40px; text-align:center;" class="mobile-padding">
-          <h2 style="margin:0 0 12px; font-family:'Playfair Display',Georgia,serif; font-size:26px; color:#1a1a2e; font-weight:700;">
-            Le Ramadan se termine.<br><span style="color:#c9a96e;">Votre transformation commence.</span>
+        <td style="background-color:#ffffff; padding:40px 40px 20px; text-align:center;" class="mobile-padding">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="border:2px solid #387054; border-radius:12px; overflow:hidden;">
+            <tr>
+              <td style="background-color:#387054; padding:14px 40px;">
+                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:13px; color:#ffffff; text-transform:uppercase; letter-spacing:1.5px; font-weight:600;">Offre sp&eacute;ciale post-Ramadan</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:24px 40px 28px; text-align:center;">
+                <p style="margin:0 0 4px; font-family:'Inter',Arial,sans-serif; font-size:14px; color:#999999; text-decoration:line-through;">32 500 MAD</p>
+                <p style="margin:0 0 8px; font-family:'Playfair Display',Georgia,serif; font-size:36px; font-weight:700; color:#387054;">29 450 MAD</p>
+                <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:13px; color:#777777;">Facilit&eacute;s de paiement disponibles</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- FINAL CTA -->
+      <tr>
+        <td style="background-color:#ffffff; padding:20px 40px 48px; text-align:center;" class="mobile-padding">
+          <h2 style="margin:0 0 12px; font-family:'Playfair Display',Georgia,serif; font-size:26px; color:#2b1b24; font-weight:700;">
+            Le Ramadan se termine.<br><span style="color:#387054;">Votre transformation commence.</span>
           </h2>
           <p style="margin:0 0 28px; font-family:'Inter',Arial,sans-serif; font-size:15px; line-height:24px; color:#555555;">
-            Réservez un appel gratuit et sans engagement avec notre équipe.<br>
+            R&eacute;servez un appel gratuit et sans engagement avec notre &eacute;quipe.<br>
             On vous explique tout : programme, rythme, financement.
           </p>
 
           <!-- Primary CTA -->
           <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin-bottom:16px;">
             <tr>
-              <td style="border-radius:50px; background:#c9a96e;" class="cta-button">
-                <a href="https://cifraat.zohobookings.com/#/4777557000000053146" target="_blank" style="display:inline-block; padding:18px 48px; font-family:'Inter',Arial,sans-serif; font-size:17px; font-weight:700; color:#1a1a2e; text-decoration:none; letter-spacing:0.5px;">
-                  &#128222;&nbsp; Je réserve mon appel gratuit
+              <td style="border-radius:50px; background:#387054;" class="cta-button">
+                <a href="https://cifraat.zohobookings.com/#/4777557000000053146" target="_blank" style="display:inline-block; padding:18px 48px; font-family:'Inter',Arial,sans-serif; font-size:17px; font-weight:700; color:#ffffff; text-decoration:none; letter-spacing:0.5px;">
+                  Je r&eacute;serve mon appel gratuit &rarr;
                 </a>
               </td>
             </tr>
           </table>
 
           <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:13px; color:#999999;">
-            Places limitées pour la rentrée post-Ramadan
+            Places limit&eacute;es pour la rentr&eacute;e post-Ramadan
           </p>
+        </td>
+      </tr>
+
+      <!-- HERO IMAGE 3 -->
+      <tr>
+        <td style="padding:0;">
+          <img src="https://skhxwbqpvamwxvhbzcgk.supabase.co/storage/v1/object/public/CIFRAAT/hero3.png" alt="CIFRAAT Formation" width="600" class="hero-img" style="display:block; width:100%; max-width:600px; height:auto;">
         </td>
       </tr>
 
       <!-- SECONDARY LINK -->
       <tr>
-        <td style="background-color:#f4f0eb; padding:24px 40px; text-align:center;">
+        <td style="background-color:#f4f0e6; padding:24px 40px; text-align:center;">
           <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:14px; color:#777777;">
             Envie d'en savoir plus avant d'appeler ?
-            <a href="https://cifraat.com/les-formations-cifraat/devenir-therapeute-en-relation-daide/" target="_blank" style="color:#c9a96e; font-weight:600; text-decoration:underline;">
+            <a href="https://cifraat.com/les-formations-cifraat/devenir-therapeute-en-relation-daide/" target="_blank" style="color:#387054; font-weight:600; text-decoration:underline;">
               Voir le programme complet
             </a>
           </p>
@@ -224,17 +458,17 @@
 
       <!-- FOOTER -->
       <tr>
-        <td style="background-color:#1a1a2e; padding:32px 40px; text-align:center; border-radius:0 0 12px 12px;">
+        <td style="background-color:#387054; padding:32px 40px; text-align:center; border-radius:0 0 12px 12px;">
           <img src="https://cifraat.com/wp-content/uploads/2026/03/logo.png" alt="CIFRAAT" width="120" style="display:inline-block; max-width:120px; margin-bottom:16px;">
-          <p style="margin:0 0 8px; font-family:'Inter',Arial,sans-serif; font-size:12px; color:#888899;">
-            Centre International de Relation d'Aide<br>et d'Accompagnement Thérapeutique
+          <p style="margin:0 0 8px; font-family:'Inter',Arial,sans-serif; font-size:12px; color:rgba(255,255,255,0.7);">
+            Centre International de Relation d'Aide<br>et d'Accompagnement Th&eacute;rapeutique
           </p>
-          <p style="margin:0 0 12px; font-family:'Inter',Arial,sans-serif; font-size:12px; color:#888899;">
-            <a href="https://cifraat.com" target="_blank" style="color:#c9a96e; text-decoration:none;">cifraat.com</a>
+          <p style="margin:0 0 12px; font-family:'Inter',Arial,sans-serif; font-size:12px;">
+            <a href="https://cifraat.com" target="_blank" style="color:#ffffff; text-decoration:none; font-weight:600;">cifraat.com</a>
           </p>
-          <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:11px; color:#555566;">
-            Vous recevez cet email car vous avez manifesté un intérêt pour nos formations.<br>
-            <a href="#" style="color:#888899; text-decoration:underline;">Se désinscrire</a>
+          <p style="margin:0; font-family:'Inter',Arial,sans-serif; font-size:11px; color:rgba(255,255,255,0.5);">
+            Vous recevez cet email car vous avez manifest&eacute; un int&eacute;r&ecirc;t pour nos formations.<br>
+            <a href="#" style="color:rgba(255,255,255,0.6); text-decoration:underline;">Se d&eacute;sinscrire</a>
           </p>
         </td>
       </tr>
